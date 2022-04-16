@@ -3,7 +3,7 @@ import React from "react";
 function Partner() {
     return (
         <div className="bg-gradient-to-r from-blue-500/[.90] to-cyan-500/[.90]">
-            <div className="container mx-auto pt-16">
+            <div className="container mx-auto py-16">
                 <div className="w-11/12 xl:w-2/3 lg:w-2/3 md:w-2/3 mx-auto sm:mb-10 mb-16">
                     <h1 className=" xl:text-5xl md:text-3xl text-xl text-center text-white font-extrabold mb-5 pt-4">Have Contributed On</h1>
                     <p className="text-base md:text-lg lg:text-xl text-center text-white font-normal xl:w-10/12 xl:mx-auto">For about 2 years I have contributed in the IT world, I have worked in various companies and organizations.</p>
@@ -28,10 +28,10 @@ function Partner() {
                         <img src="assets/company/kolabordik.png" alt="logo-company" className="h-24 drop-shadow-xl grayscale hover:filter-none" />
                     </div>
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                        <img src="assets/company/sipenpin.png" alt="logo-company" className="h-24 drop-shadow-xl grayscale hover:filter-none" />
+                        <img src="assets/company/sipenpin.png" alt="logo-company" className="h-20 drop-shadow-xl grayscale hover:filter-none" />
                     </div>
                     <div className="w-6/12 xl:w-1/4 lg:w-1/4 md:w-1/4 flex justify-center xl:border-l lg:border-l border-gray-200 xl:pt-10 lg:pt-10 md:pt-2 pt-16">
-                        <img src="assets/company/investa.png" alt="logo-company" className="h-24 drop-shadow-xl grayscale hover:filter-none" />
+                        <img src="assets/company/investa.png" alt="logo-company" className="h-20 drop-shadow-xl grayscale hover:filter-none" />
                     </div>
                 </div>
             </div>
