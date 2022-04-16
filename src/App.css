@@ -1,3 +1,13 @@
 .custom-hover-nav:hover{
   border-bottom: 2.5px solid black;
 }
+
+@media (min-width: 992px) {
+  .rotate-lg-6 {
+    transform: rotate(6deg);
+  }
+}
+
+.custom-fancy-border-radius {
+  border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
+}
