@@ -15,7 +15,7 @@ function Skills(){
                     <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12" style={{zIndex: 1 }}>
                         <div className="bg-blue-500 h-full rounded-lg p-6 lg:pl-12 text-white flex items-center text-center lg:text-left" style={{zIndex: 1 }}>
                             <div className="lg:px-12">
-                                <h2 className="text-3xl font-bold mb-5">A Little Biography</h2>
+                                <h2 className="text-3xl font-bold mb-5">A Little Biography.</h2>
                                 <p className="mb-6 pb-2 lg:pb-0"> Work for money and code for love ! Hello everyone, I'm Haidar, an Fullstack Developer based in Indonesia.</p>
                                 <div className="flex flex-col md:flex-row md:justify-around xl:justify-start mb-6 mx-auto">
                                     <div className="grid md:grid-cols-3 gap-x-6 m-auto">
@@ -35,7 +35,7 @@ function Skills(){
                                         </div>
                                     </div>
                                 </div>
-                                <h2 className="text-2xl font-bold my-5">A Little Biography</h2>
+                                <h2 className="text-2xl font-bold my-5">A Little About Skills.</h2>
                                 <div className="px-10 flex flex-col space-y-2">
                                     <div>
                                         <div className="flex justify-between pr-2">
