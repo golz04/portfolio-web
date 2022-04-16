@@ -33,15 +33,13 @@ function Navbar() {
         watchScroll();
 
         if (scrollY > 100) {
-            return () => {
-                console.log('halo')
+            return (
                 addBg()
-            }
+            );
         } else {
-            return () => {
+            return (
                 removeBg()
-                console.log('hai')
-            }
+            );
         }
     });
 

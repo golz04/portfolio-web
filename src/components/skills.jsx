@@ -3,8 +3,8 @@ import { CheckCircle } from 'react-feather';
 
 function Skills(){
     return(
-        <div className="container md:my-24 px-6 mx-auto">
-            <section className="mb-32">
+        <div className="container md:my-20 px-6 mx-auto">
+            <section className="mb-18">
                 <style dangerouslySetInnerHTML={{__html: "\n      @media (min-width: 992px) {\n        #cta-img-nml-50 {\n          margin-left: 50px;\n        }\n      }\n    " }} />
                 <div className="flex flex-wrap">
                     <div className="grow-0 shrink-0 basis-auto w-full lg:w-5/12 mb-12 lg:mb-0" style={{zIndex: 2 }}>
