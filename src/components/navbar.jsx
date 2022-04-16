@@ -4,7 +4,7 @@ import { GitHub, Linkedin, Instagram, Facebook } from 'react-feather';
 function Navbar() {
     return(
         <div>
-            <section className="fixed w-full px-8 text-gray-700 bg-transparent body-font shadow-md" style={{zIndex: 2}}>
+            <section className="fixed w-full px-8 text-gray-700 bg-transparent body-font shadow-md" style={{zIndex: 10}}>
                 <div className="container flex flex-col flex-wrap items-center justify-between py-5 mx-auto md:flex-row max-w-7xl">
                     <a href="#_" className="relative z-10 flex items-center w-auto text-2xl font-extrabold leading-none text-white select-none">mHaidar.</a>
                     <nav className="top-0 left-0 z-0 flex items-center justify-center w-full h-full py-5 -ml-0 space-x-5 text-base md:-ml-5 md:py-0 md:absolute">
