@@ -40,9 +40,13 @@ function Header() {
                                     <h2 className="text-3xl font-bold mb-4 display-5">Hello, My Name Is Haidar.</h2>
                                     <h3 className="text-xl font-bold mb-4 display-5">Fullstack Developer.</h3>
                                     <p className="text-gray-500 mb-12">I am a Fullstack Developer with more than 2 years of experience. I use programming language like PHP, Java, .NET, JS, Python and Dart.</p>
-                                    <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Contact Me</button>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadhaidar862@gmail.com">
+                                        <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Contact Me</button>
+                                    </a>
                                     &nbsp;&nbsp;
-                                    <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 shadow shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-400/80 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">Download CV</button>
+                                    <a href={process.env.PUBLIC_URL + '/assets/pdf/cv.pdf'}>
+                                        <button type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 shadow shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-400/80 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">Download CV</button>
+                                    </a>
                                 </div>
                             </div>
                             <div style={{height: '800px',}}>
