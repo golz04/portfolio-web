@@ -38,54 +38,71 @@ function Skills(){
                                 <h2 className="text-2xl font-bold my-5">A Little About Skills.</h2>
                                 <div className="px-10 flex flex-col space-y-2">
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>HTML + CSS (Bootstrap / Tails)</span>
-                                            <span>90%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/bootstrap.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/tailwind.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-11/12" />
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>PHP (Blade + Laravel / CI)</span>
-                                            <span>90%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/laravel.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/ci.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-11/12" />
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>Dart (Flutter) / Java</span>
-                                            <span>70%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/flutter.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/java.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-9/12" />
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>.NET (VB.NET) / C#</span>
-                                            <span>50%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/net.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/c#.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-6/12" />
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>Python</span>
-                                            <span>50%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/python.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-6/12" />
                                         </div>
                                     </div>
                                     <div>
-                                        <div className="flex justify-between pr-2">
+                                        <div className="flex justify-between pr-1">
                                             <span>VueJS (NuxtJS) / ReactJS</span>
-                                            <span>25%</span>
+                                            <div className="flex items-center">
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/vue.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/react.png" />
+                                            </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
                                             <div className="absolute top-0 h-4 rounded shim-blue border w-3/12" />

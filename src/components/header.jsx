@@ -39,7 +39,10 @@ function Header() {
                                 <div className="relative block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-28" style={{background: 'hsla(0, 0%, 100%, 0.55)', backdropFilter: 'blur(30px)', zIndex: 1}}>
                                     <h2 className="text-3xl font-bold mb-4 display-5">Hello, My Name Is Haidar.</h2>
                                     <h3 className="text-xl font-bold mb-4 display-5">Fullstack Developer.</h3>
-                                    <p className="text-gray-500 mb-12">I am a Fullstack Developer with more than 2 years of experience. I use programming language like PHP, Java, .NET, JS, Python and Dart.</p>
+                                    <p className="text-gray-500 md:mb-12">I am a Fullstack Developer with more than 2 years of experience. I use programming language like PHP, Java, .NET, JS, Python and Dart.</p>
+                                    <div className="md:hidden my-12">
+                                        <img src="assets/image/haidar-3-compress.jpg" className="h-52 md:h-full m-auto object-cover custom-fancy-border-radius rotate-lg-6 shadow-2xl" alt="haidar-img" />
+                                    </div>
                                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadhaidar862@gmail.com">
                                         <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Contact Me</button>
                                     </a>
@@ -49,8 +52,8 @@ function Header() {
                                     </a>
                                 </div>
                             </div>
-                            <div style={{height: '800px',}}>
-                                <img src="assets/image/haidar-3-compress.jpg" className="h-full m-auto object-cover custom-fancy-border-radius rotate-lg-6 shadow-2xl" alt="haidar-img" />
+                            <div className="hidden md:block md:h-[800px]">
+                                <img src="assets/image/haidar-3-compress.jpg" className="h-52 md:h-full m-auto object-cover custom-fancy-border-radius rotate-lg-6 shadow-2xl" alt="haidar-img" />
                             </div>
                         </div>
                     </div>

@@ -51,7 +51,7 @@ function Experience() {
                             <ol className="relative border-l border-gray-200">
                                 <li className="mb-10 ml-6 text-left">
                                     <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white">
-                                        <User className="w-3 text-blue-600" />
+                                        <Calendar className="w-3 text-blue-600" />
                                     </span>
                                     <h3 className="flex items-center mb-1 text-lg font-bold text-gray-900">PT. BANK SYARIAH INDONESIA</h3>
                                     <time className="block mb-2 text-sm font-semibold leading-none text-gray-400">August 2021 - January 2022</time>
@@ -104,7 +104,7 @@ function Experience() {
                                 </li>
                                 <li className="mb-10 ml-6 text-left">
                                     <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white">
-                                        <User className="w-3 text-blue-600" />
+                                        <Calendar className="w-3 text-blue-600" />
                                     </span>
                                     <h3 className="flex items-center mb-1 text-lg font-bold text-gray-900">INFORMATICS STUDENT ASSOCIATION</h3>
                                     <time className="block mb-2 text-sm font-semibold leading-none text-gray-400">December 2019 - December 2020</time>
