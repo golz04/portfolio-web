@@ -7,7 +7,7 @@ function Experience() {
             <section className="relative">
             <svg data-name="Layer 1" transform={'scale(-1)'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none" className="svg absolute h-full lg:block" style={{zIndex: 0,}}>
                 <defs>
-                    <linearGradient id="sw-gradient-0" x1={0} x2={1} y1={0} y2={0}>
+                    <linearGradient id="sw-gradient-0" x1={0} x2={1.5} y1={0} y2={0}>
                         <stop stopColor="hsl(186.79,100.00%,41.57%)" offset="0%" />
                         <stop stopColor="hsl(206.57,89.74%,54.12%)" offset="100%" />
                     </linearGradient>
