@@ -78,7 +78,7 @@ function Skills(){
                                             <span>.NET (VB.NET) / C#</span>
                                             <div className="flex items-center">
                                                 <img className="w-6 p-1" alt="icons.png" src="assets/icon/net.png" />
-                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/c#.png" />
+                                                <img className="w-6 p-1" alt="icons.png" src="assets/icon/csharp.png" />
                                             </div>
                                         </div>
                                         <div className="relative w-full bg-gray-200 rounded">
