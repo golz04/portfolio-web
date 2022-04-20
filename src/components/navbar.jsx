@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Outlet, Link } from "react-router-dom";
 import { GitHub, Linkedin, Instagram, Facebook, Menu } from 'react-feather';
 
 function Navbar() {
@@ -72,9 +73,12 @@ function Navbar() {
                             </div>
                             <div className="hidden xl:block xl:w-1/3">
                                 <ul className="flex justify-center">
-                                    <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#_">Home</a></li>
-                                    <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#_">Project</a></li>
-                                    <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#_">Contact</a></li>
+                                    <li className="mr-12">
+                                        <Link className="text-coolGray-500 hover:text-coolGray-900 font-medium" to="/">Home</Link>
+                                    </li>
+                                    <li className="mr-12">
+                                        <Link className="text-coolGray-500 hover:text-coolGray-900 font-medium" to="/portfolio">Project</Link>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="hidden xl:block xl:w-1/3 h-16">
@@ -106,9 +110,8 @@ function Navbar() {
                                 <div className="flex flex-col justify-between h-full">
                                     <a href="#_" className="inline-block z-10 md:pl-10 flex items-center w-auto text-2xl font-extrabold leading-none select-none">mHaidar.</a>
                                     <ul className="py-6">
-                                        <li><a className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md" href="#_">Home</a></li>
-                                        <li><a className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md" href="#_">Project</a></li>
-                                        <li><a className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md" href="#_">Contact</a></li>
+                                        <li><Link className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md" to="/">Home</Link></li>
+                                        <li><Link className="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md" to="/portfolio">Project</Link></li>
                                     </ul>
                                     <div className="relative z-10 inline-flex items-center space-x-20 md:ml-5 lg:justify-end text-center md:block border-2 px-14 py-2 rounded-full">
                                         <a href="https://github.com/golz04" className="py-2 text-base font-medium leading-6 whitespace-no-wrap focus:outline-none focus:shadow-none">
@@ -135,6 +138,7 @@ function Navbar() {
                     </div>
                 </div>
             </section>
+            <Outlet />
         </div>
     );
 }

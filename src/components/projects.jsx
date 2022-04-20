@@ -1,7 +1,7 @@
 import React from "react";
 function Projects() {
     return(
-        <div className="relative">
+        <div className="relative"  style={{zIndex:'5'}}>
             <section className="container mx-auto sm:px-4 my-10 mb-10">
                 <h1 className="mb-10 xl:text-5xl md:text-2xl text-xl text-center font-extrabold pt-4">Projects</h1>
                 <div className="flex flex-wrap gx-lg-5">
@@ -167,7 +167,7 @@ function Projects() {
                                 </svg>
                             </div>
                             <div className="flex-auto p-6 bg-gray-100">
-                                <h5 className="text-center mb-1 font-bold text-2xl">Self English Course (SEC)</h5>
+                                <h5 className="text-center mb-1 font-bold text-2xl">sec-pkm.com</h5>
                                 <h6 className="text-center text-blue-600 font-semibold mb-3">Web Development (team)</h6>
                                 <p className="mb-0 text-justify">Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat vulputate. Ut vulputate est non quam dignissim elementum. Donec a ullamcorper diam.</p>
                             </div>
