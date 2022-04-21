@@ -1,18 +1,20 @@
-import React from 'react';
-import Navbar from '../components/navbar';
+import React, { useEffect } from 'react';
 import HeaderPortfolio from '../components/header-portfolio';
 import Wave from '../components/wave';
 import Projects from '../components/projects';
-import Footer from '../components/footer';
 
 function Portfolio() {
+    useEffect(() => {
+        window.scroll({
+            top: 0,
+            behavior: 'smooth',
+        });
+    })
     return (
         <div>
-            <Navbar/>
             <HeaderPortfolio/>
             <Wave/>
             <Projects/>
-            <Footer/>
         </div>
     );
 }
